@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+/*title*/
+
+.title {
+    font-size: 10vw;
+}
+
+.number {
+    font-size: 25vw;
+}
+
+
+
+/*buttons*/
+
+.buttons {
+    display: flex;
+    justify-content: center;    
+}
+
+button {
+    width: 8vw;
+    height: 5vw;
+    font-size: 2vw;
+    margin: 0.5vw;
+    border-radius: 25px;
+}
+
+.mhundred {
+    width: 7vw;
+}
+
+.mten {
+    width: 5.5vw;
+}
+
+.mone {
+    width: 5vw;
+}
+
+.one {
+    width: 5vw;
+}
+
+.ten {
+    width: 5.5vw;
+}
+
+.hundred {
+    width: 7vw;
+}
+
+.reset {
+    width: 10vw;
+    height: 5vw;
+}
