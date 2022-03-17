@@ -38,3 +38,33 @@ buttons.forEach(function (btn) {
         }
     });
 });
+
+
+
+
+// toggle dark mode
+
+const toggleicon = document.getElementById("toggle");
+const togglebutton = document.querySelector(".toggle-mode");
+const footerBox = document.querySelector(".footer-box");
+const icont = document.querySelector(".icont");
+const iconf = document.querySelector(".iconf");
+
+toggleicon.onclick = function() {
+    if (toggleicon.classList.contains("fa-moon-o")) {
+        toggleicon.className = "fa fa-sun-o";
+        document.body.classList.add("dark-mode");
+        footerBox.classList.add("footer-dark");
+        icont.classList.add("white");
+        iconf.classList.add("white");
+        return
+    }
+
+    else if (toggleicon.classList.contains("fa-sun-o")) {
+        toggleicon.className = "fa fa-moon-o";
+        document.body.classList.remove("dark-mode")
+        footerBox.classList.remove("footer-dark")
+        iconf.classList.remove("white")
+        return
+    }
+};
